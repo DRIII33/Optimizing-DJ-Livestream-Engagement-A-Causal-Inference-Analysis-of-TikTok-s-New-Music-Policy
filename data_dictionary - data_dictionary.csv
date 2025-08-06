@@ -1,0 +1,11 @@
+column_name,data_type,description
+dj_id,string,Unique identifier for each DJ
+livestream_id,string,Unique identifier for each livestream session
+date,date,The date of the livestream
+total_viewers,integer,The total number of unique viewers for the livestream
+avg_view_duration_minutes,float,The average duration a viewer watched the livestream in minutes
+music_source,string,"The type of music used: 'Copyrighted', 'Original', or 'Licensed'"
+is_commercial_user,boolean,"True if the DJ is a Commercial User, False otherwise"
+follower_count_at_stream,integer,Number of followers the DJ had at the time of the stream
+is_treatment_group,boolean,"True if the DJ's streams were affected by the policy change (relied on copyrighted music), False otherwise"
+livestream_count_monthly,integer,The total number of livestreams the DJ broadcasted in the given month
